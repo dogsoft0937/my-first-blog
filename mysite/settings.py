@@ -100,8 +100,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-MEDIA_URL='/media/'
-MEDIA_ROOT = BASE_DIR / "media/"
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
@@ -127,3 +126,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 ALLOWED_HOSTS = ['127.0.0.1','.pythonanywhere.com']
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media/'
